@@ -1,0 +1,16 @@
+{
+    "class_names": [
+        "Potato___Early_blight",
+        "Potato___Late_blight",
+        "Potato___healthy"
+    ],
+    "class_to_index": {
+        "Potato___Early_blight": 0,
+        "Potato___Late_blight": 1,
+        "Potato___healthy": 2
+    },
+    "image_size": [
+        128,
+        128
+    ]
+}

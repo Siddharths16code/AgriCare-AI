@@ -1,0 +1,39 @@
+
+# API secrets
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local database
+agricare/database/*.db
+agricare/database/*.db-journal
+
+# Uploaded farmer images
+uploads/
+*.log
+
+# Dataset and split files
+dataset/
+train_data.csv
+test_data.csv
+validation_data.csv
+
+# Temporary test scripts
+test_auth.py
+test_weather.py
+test_gemini.py
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/

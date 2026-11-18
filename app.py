@@ -2,6 +2,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
+from agricare.database.db import initialize_database
 
 from agricare.pages.auth_page import render_auth_page
 from agricare.pages.profile_page import render_profile_page
@@ -40,6 +41,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# -----------------------------------
+# DATABASE INITIALIZATION
+# -----------------------------------
+
+initialize_database()
 
 # -----------------------------------
 # CUSTOM CSS
